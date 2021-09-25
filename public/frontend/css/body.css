@@ -1,0 +1,328 @@
+body{
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.bg{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.text-green{
+  color: #00B255;
+}
+
+.tebel-banget {
+    font-weight: 900;
+  }
+  
+.tebel-sedang {
+    font-weight: bold;
+}
+
+.desc{
+    max-width: 400px;
+}
+
+.button {
+    background-color: #3D4051;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+.button:hover {
+    background-color: #20222b;
+    color: white;
+}
+  
+
+.gambar{
+  display: none;
+}
+
+.img{
+  width: 600px;
+  z-index: -1;
+}
+
+
+.font-warna2{
+  color: #828893;
+  font-family: poppins,sans-serif;
+  text-align: justify;
+}
+
+.bg-color-1 {
+  background-color: #E3F8FA;
+}
+.bg-color-2 {
+  background-color: #FFF9DD;
+}
+.bg-color-3 {
+  background-color: #FFE6E2;
+}
+.bg-color-4 {
+  background-color: #FED385;
+}
+.bg-color-5 {
+  background-color: #FD907E;
+}
+.bg-color-6 {
+  background-color: #e04e4e;
+}
+.bg-color-7 {
+  background-color: #F5E6FE;
+}
+.bg-color-8 {
+  background-color: #1C3547;
+}
+.bg-color-9 {
+  background-color: #be63f9;
+}
+
+.icon-block {
+  position: relative;
+  text-align: center;
+}
+.icon-block .icon-block-img {
+  margin: 0 auto;
+  height: 80px;
+  display: inline-block;
+  margin-right: 20px;
+  line-height: 80px;
+  border-radius: 8px;
+  width: 80px;
+  text-align: center;
+  font-size: 30px;
+}
+.icon-block .icon-block-img img {
+  width: 30px;
+  height: 30px;
+}
+.icon-block .icon-block-info {
+  margin-top: 20px;
+}
+.icon-block .icon-block-info h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1C3547;
+}
+
+.profile-mdl .modal-content{
+	background: transparent !important; 
+	border: none !important;
+}
+
+.garis-vertikal{
+  border-left: 1px #828893 solid;
+  height: 30px;
+  width: 0px;
+  margin-left: 240px;
+  }
+
+  #jurusan-fitur1 .card {
+    border: none;
+    margin-bottom: 30px;
+  }
+  #jurusan-fitur1 .card .card-header {
+    background-color: transparent;
+    border-bottom: none;
+    padding: 0;
+  }
+  #jurusan-fitur1 .card .card-header h5 button {
+    padding: 0;
+  }
+  #jurusan-fitur1 .card .card-header h5 button img {
+    width: 35px;
+    float: left;
+    margin-right: 12px;
+  }
+  #jurusan-fitur1 .card .card-header h5 button span {
+    position: relative;
+    /* top: 10px; */
+    font-weight: 600;
+    margin-left:12px;
+    text-decoration: none;
+    color: #1C3547;
+  }
+  #jurusan-fitur1 .card .card-header h5 button:hover {
+    text-decoration: none !important;
+  }
+  #jurusan-fitur1 .card .card-header h5 button:focus {
+    text-decoration: none !important;
+  }
+  #jurusan-fitur1 .card .card-body {
+    padding: 15px 30px 15px 50px;
+  }
+  
+  #jurusan-fitur2 .card {
+    border: none;
+    margin-bottom: 30px;
+  }
+  #jurusan-fitur2 .card .card-header {
+    background-color: transparent;
+    border-bottom: none;
+    padding: 0;
+  }
+  #jurusan-fitur2 .card .card-header h5 button {
+    padding: 0;
+  }
+  #jurusan-fitur2 .card .card-header h5 button img {
+    width: 35px;
+    float: left;
+    margin-right: 12px;
+  }
+  #jurusan-fitur2 .card .card-header h5 button span {
+    position: relative;
+    /* top: 10px; */
+    font-weight: 600;
+    margin-left:12px;
+    text-decoration: none;
+    color: #1C3547;
+  }
+  #jurusan-fitur2 .card .card-header h5 button:hover {
+    text-decoration: none !important;
+  }
+  #jurusan-fitur2 .card .card-header h5 button:focus {
+    text-decoration: none !important;
+  }
+  #jurusan-fitur2 .card .card-body {
+    padding: 15px 30px 15px 50px;
+  }
+
+  #jurusan-fitur3 .card {
+    border: none;
+    margin-bottom: 30px;
+  }
+  #jurusan-fitur3 .card .card-header {
+    background-color: transparent;
+    border-bottom: none;
+    padding: 0;
+  }
+  #jurusan-fitur3 .card .card-header h5 button {
+    padding: 0;
+  }
+  #jurusan-fitur3 .card .card-header h5 button img {
+    width: 35px;
+    float: left;
+    margin-right: 12px;
+  }
+  #jurusan-fitur3 .card .card-header h5 button span {
+    position: relative;
+    /* top: 10px; */
+    font-weight: 600;
+    margin-left:12px;
+    text-decoration: none;
+    color: #1C3547;
+  }
+  #jurusan-fitur3 .card .card-header h5 button:hover {
+    text-decoration: none !important;
+  }
+  #jurusan-fitur3 .card .card-header h5 button:focus {
+    text-decoration: none !important;
+  }
+  #jurusan-fitur3 .card .card-body {
+    padding: 15px 30px 15px 50px;
+  }
+
+  .timeline-icon {
+    position: relative;
+  }
+  .timeline-icon .timeline-icon-item {
+    clear: both;
+    padding-bottom: 40px;
+  }
+  .timeline-icon .timeline-icon-item .icon-item {
+    border-radius: 8px;
+    float: left;
+    padding: 20px;
+    margin-right: 15px;
+  }
+  .timeline-icon .timeline-icon-item .icon-item i {
+    font-size: 25px;
+  }
+  .timeline-icon .timeline-icon-item .icon-item-info {
+    padding-top: 8px;
+    overflow: hidden;
+  }
+  .timeline-icon:after {
+    content: "";
+    z-index: -9;
+    background-color: #D2D2D2;
+    height: 90%;
+    width: 1px;
+    position: absolute;
+    left: 45px;
+    top: 0;
+    display: block;
+  }
+
+ .text-story {
+   background-color: rgba(0, 0, 0, 0.6);
+   padding: 10px; 
+   margin: 140px 30px 0px 90px ;
+   color: white;
+   text-align: justify;
+ }
+
+ #success-stori .slick-prev:before {
+     font-size: 20px;
+     line-height: 1;
+
+     opacity: 0.75;
+     color: red !important;
+
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+ }
+
+
+ #success-stori .slick-next:before {
+     font-size: 20px;
+     line-height: 1;
+
+     opacity: 0.75;
+     color: red !important;
+
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+ }
+
+ #aktivitas .slick-prev:before {
+  font-size: 20px;
+  line-height: 1;
+
+  opacity: 0.75;
+  color: black !important;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+#aktivitas .slick-next:before {
+  font-size: 20px;
+  line-height: 1;
+
+  opacity: 0.75;
+  color: black !important;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+
+
+
+  
